@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 執行時產生的截圖、記錄檔——不應該進版本控制(可能包含實際畫面/資料)
+*.png
+*_run_output.txt
+*_output.txt
+
+# 常見的編輯器/系統雜項檔案
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 如果之後有人加了本機設定檔(帳密、路徑等),不要進版本控制
+config.py
+*.local.py
